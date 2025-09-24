@@ -1,0 +1,10 @@
+
+A tiny Flask app that returns current UTC time at `/time`.
+
+- Docker Hub: `docker.io/shock55/sample-time-app:latest`
+- Tag page: https://hub.docker.com/r/shock55/sample-time-app/tags
+
+```bash
+docker run --rm -p 8080:8080 shock55/sample-time-app:latest
+# http://localhost:8080
+# http://localhost:8080/time
